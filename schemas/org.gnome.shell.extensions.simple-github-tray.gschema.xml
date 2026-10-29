@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.simple-github-tray"
+          path="/org/gnome/shell/extensions/simple-github-tray/">
+    <key name="username" type="s">
+      <default>''</default>
+      <summary>GitHub username</summary>
+      <description>The expected login of the account that owns the personal access token.</description>
+    </key>
+    <key name="token" type="s">
+      <default>''</default>
+      <summary>GitHub personal access token</summary>
+      <description>Stored as an ordinary, unencrypted GSettings value at the user's request.</description>
+    </key>
+    <key name="repo-limit" type="i">
+      <range min="0" max="50"/>
+      <default>10</default>
+      <summary>Repositories to display</summary>
+      <description>0 displays all owned repositories; otherwise the value is a display limit.</description>
+    </key>
+  </schema>
+</schemalist>

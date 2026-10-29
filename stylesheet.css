@@ -1,0 +1,48 @@
+.github-panel-mark {
+  icon-size: 16px;
+  -st-icon-style: symbolic;
+}
+
+.github-header {
+  spacing: 14px;
+}
+
+.popup-menu .popup-menu-item.github-header-item {
+  padding: 10px 14px;
+}
+
+.github-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+}
+
+.github-header-name {
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+.github-refresh-button {
+  min-width: 40px;
+  min-height: 40px;
+  padding: 8px;
+  margin-left: 2px;
+}
+
+.popup-menu .popup-menu-item.github-menu-item {
+  margin: 4px 4px;
+  padding: 10px 14px;
+}
+
+.github-repository-row {
+  spacing: 12px;
+}
+
+.popup-menu .popup-menu-item.github-repository-item {
+  margin: 2px 4px;
+  padding: 7px 12px;
+}
+
+.github-repository-name {
+  max-width: 22em;
+}
